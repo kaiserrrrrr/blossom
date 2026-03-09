@@ -24,7 +24,7 @@ blossom builds upon the minimalist philosophy of sakura but adds modern refineme
 1. Simply add this in your `<head>` tag:
 
     ```html
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kaiserrrrrr/blossom/dist/blossom.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kaiserrrrrr/blossom/src/blossom.min.css" type="text/css">
     ```
 
 **Manually**:
@@ -32,11 +32,11 @@ blossom builds upon the minimalist philosophy of sakura but adds modern refineme
 1. Download the file:
 
     ```bash
-    wget "https://cdn.jsdelivr.net/gh/kaiserrrrrr/blossom/dist/blossom.min.css"
+    wget "https://cdn.jsdelivr.net/gh/kaiserrrrrr/blossom/src/blossom.min.css"
     ```
 
     **OR** download directly:
-    [blossom](https://cdn.jsdelivr.net/gh/kaiserrrrrr/blossom/dist/blossom.min.css)
+    [blossom](https://cdn.jsdelivr.net/gh/kaiserrrrrr/blossom/src/blossom.min.css)
 
 2. Link it from HTML:
 
