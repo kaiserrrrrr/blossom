@@ -3,140 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A classless CSS showcase using Blossom.css">
     <title>blossom.css</title>
     <link rel="stylesheet" href="./src/blossom.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#typography">Typography</a></li>
-            <li><a href="#forms">Forms</a></li>
-            <li><a href="#interactive">Interactive</a></li>
-            <li><a href="https://github.com/Kaiserrrrrr/blossom">Github</a></li>
-        </ul>
-    </nav>
+    <a href="#main-content">Skip to content</a>
+
     <header>
-        <h1>Blossom.css</h1>
-        <p>A simple, drop-in theme for your HTML. No classes, no setup, just semantic tags that look effortless.</p>
+        <nav>
+            <ul>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#elements">Elements</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#interactive">Interactive</a></li>
+                <li><a href="https://github.com/Kaiserrrrrr/blossom" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+        <hgroup>
+            <h1>Blossom.css</h1>
+            <p>The Expanded Classless Framework</p>
+        </hgroup>
+        <p>A simple, drop-in theme for your HTML. No classes, no setup, just semantic tags that look effortless. Supports dark mode, print, and accessibility out of the box.</p>
     </header>
-    <hr>
-    <section id="typography">
-        <h1>Heading Level 1</h1>
-        <p>This is a standard paragraph with a <a href="#">link</a>. Blossom uses <code>clamp()</code> for fluid font sizing across all devices.</p>       
-        <h2>Heading Level 2</h2>
-        <p>Vertical rhythm is maintained through consistent margins. Below you can see the remaining header levels:</p>
-        <h3>Heading Level 3</h3>
-        <h4>Heading Level 4</h4>
-        <h5>Heading Level 5</h5>
-        <h6>Heading Level 6</h6>
-        <p>
-            <mark>Highlighted text</mark> | 
-            <small>Small text (75%)</small> | 
-            <sub>Subscript (H2O)</sub> | 
-            <sup>Superscript (E=mc²)</sup>
-        </p>
-        <aside>
-            <strong>Aside Tag:</strong> This element is used for side-notes or pull-quotes. In Blossom, it features a double border and a subtle background.
-        </aside>
-        <blockquote>
-            "The perfect blossom is a rare thing. You could spend your life looking for one, and it would not be a wasted life."
-            <p>— The Last Samurai</p>
-        </blockquote>
-    </section>
-    <section id="lists">
-        <h2>Lists & Nesting</h2>
-        <ul>
-            <li>Unordered List Level 1
-                <ul>
-                    <li>Unordered List Level 2
-                        <ul>
-                            <li>Unordered List Level 3</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <ol>
-            <li>Ordered List Item 1</li>
-            <li>Ordered List Item 2</li>
-        </ol>
-    </section>
 
-    <section id="data">
-        <h2>Data & Media</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Tag</th>
-                    <th>Description</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><code>&lt;table&gt;</code></td>
-                    <td>Standard data grid</td>
-                    <td>✅ Tested</td>
-                </tr>
-                <tr>
-                    <td><code>&lt;figure&gt;</code></td>
-                    <td>Media container</td>
-                    <td>✅ Tested</td>
-                </tr>
-            </tbody>
-        </table>
+    <main id="main-content">
+        <section id="typography">
+            <header>
+                <h2>Typography & Rhythm</h2>
+            </header>
+            <p>This is a standard paragraph. It uses a golden-ratio line height for readability. You can use <strong>bold text</strong>, <em>italicized emphasis</em>, or <ins>inserted text</ins> and <del>deleted text</del> to show edits.</p>
+            
+            <blockquote>
+                "The perfect blossom is a rare thing. You could spend your life looking for one, and it would not be a wasted life."
+                <footer>— <cite>The Last Samurai</cite></footer>
+            </blockquote>
 
-        <figure>
-            <img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=800&q=80" alt="Cherry Blossoms">
-            <figcaption>Testing the <code>&lt;figcaption&gt;</code> alignment and opacity.</figcaption>
-        </figure>
-    </section>
+            <h3>Heading Levels</h3>
+            <p>Headings 1-6 are scaled appropriately:</p>
+            <h1>H1 Heading</h1>
+            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
+            <h4>H4 Heading</h4>
+            <h5>H5 Heading</h5>
+            <h6>H6 Heading</h6>
 
-    <section id="code">
-        <h2>Code & Technical</h2>
-        <p>Use <code>inline code</code> for variables. Use <kbd>Ctrl</kbd> + <kbd>C</kbd> to test <code>&lt;kbd&gt;</code> styling.</p>
-        <p>Terminal Output: <samp>Error: System failure</samp></p> 
-        <pre><code>// Block Code Test
-function blossom() {
-  const state = "blooming";
-  return state;
-}</code></pre>
-    </section>
-    <section id="interactive">
-        <h2>Interactive Features</h2>
-        <details>
-            <summary>Click to view hidden details</summary>
-            <p>This is the <code>&lt;details&gt;</code> element. It's a classless accordion.</p>
-        </details>
-        <p>Progress Bar (75%):</p>
-        <progress value="75" max="100"></progress>
-    </section>
-    <section id="forms">
-        <h2>Forms & Buttons</h2>
-        <form onsubmit="return false;">
-            <fieldset>
-                <legend>Contact Form Test</legend>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="John Doe">
-                <label for="opt">Selection</label>
-                <select id="opt">
-                    <option>Option One</option>
-                    <option>Option Two</option>
-                </select>
-                <label for="msg">Message</label>
-                <textarea id="msg" placeholder="Write something..."></textarea>
-                <p>
-                    <button type="submit">Active Button</button>
-                    <button type="button" disabled>Disabled Button</button>
-                </p>
-                <label>
-                    <input type="checkbox"> Testing Checkbox
-                </label>
-            </fieldset>
-        </form>
-    </section>
+            <aside>
+                <strong>Pro-tip:</strong> Use the <code>&lt;aside&gt;</code> tag for sidebars, pull-quotes, or supplementary info. It will automatically indent and style with a border.
+            </aside>
+        </section>
+
+        <hr>
+
+        <section id="elements">
+            <h2>Common Elements</h2>
+            <div style="display: grid; gap: var(--gap-md); grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                <div>
+                    <h4>Unordered List</h4>
+                    <ul>
+                        <li>First item</li>
+                        <li>Second item with <code>code</code>
+                            <ul>
+                                <li>Nested item</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Ordered List</h4>
+                    <ol>
+                        <li>Step one</li>
+                        <li>Step two</li>
+                        <li>Step three</li>
+                    </ol>
+                </div>
+                <div>
+                    <h4>Description List</h4>
+                    <dl>
+                        <dt>Blossom</dt>
+                        <dd>A classless CSS framework.</dd>
+                        <dt>Semantic</dt>
+                        <dd>Meaningful HTML tags.</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <h4>Tables</h4>
+            <table>
+                <caption>A comparison of classless benefits</caption>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Class-based</th>
+                        <th>Blossom.css</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Setup Time</td>
+                        <td>Slow</td>
+                        <td>Instant</td>
+                    </tr>
+                    <tr>
+                        <td>Maintenance</td>
+                        <td>Complex</td>
+                        <td>Zero</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">Overall Satisfaction</th>
+                        <td>100%</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h4>Media</h4>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=800&q=80" alt="Cherry Blossoms">
+                <figcaption>A beautiful cherry blossom tree (via Unsplash).</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <section id="forms">
+            <h2>Forms & Feedback</h2>
+            <search>
+                <form>
+                    <label for="search">Search Documentation</label>
+                    <input type="search" id="search" placeholder="Type to search...">
+                </form>
+            </search>
+
+            <form onsubmit="return false;">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="John Doe" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="john@example.com">
+
+                    <div style="display: flex; gap: var(--gap-md); margin-bottom: 1rem;">
+                        <label><input type="radio" name="r" checked> Option A</label>
+                        <label><input type="radio" name="r"> Option B</label>
+                    </div>
+
+                    <label for="range">Difficulty Level</label>
+                    <input type="range" id="range" min="0" max="100" value="75">
+
+                    <label for="choice">Fruit Selection</label>
+                    <select id="choice">
+                        <option value="cherry">Cherry</option>
+                        <option value="apple">Apple</option>
+                        <option value="peach">Peach</option>
+                    </select>
+
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" rows="4" placeholder="Tell us about yourself..."></textarea>
+
+                    <p>
+                        <button type="submit">Submit Form</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="interactive">
+            <h2>Interactive & Technical</h2>
+            <details>
+                <summary>How do I install this?</summary>
+                <p>Just link the CSS file in your <code>&lt;head&gt;</code>. No NPM or build steps required.</p>
+            </details>
+
+            <h4>Keyboard & Code</h4>
+            <p>To save your work, press <kbd>Ctrl</kbd> + <kbd>S</kbd>. The server will return <samp>Success: File Saved</samp>.</p>
+            <pre><code>// Modern JavaScript Example
+const blossom = () => {
+  console.log("Effortless styling.");
+};</code></pre>
+
+            <h4>Status Indicators</h4>
+            <label for="p">Loading Progress</label>
+            <progress id="p" value="60" max="100">60%</progress>
+
+            <label for="m">Storage Capacity</label>
+            <meter id="m" value="0.8" min="0" max="1">80%</meter>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2026 blossom.css</p>
+        <p>
+            &copy; 2026 Blossom.css
+        </p>
     </footer>
 </body>
 </html>
