@@ -8,7 +8,7 @@ Blossom.css is a drop-in styling solution that transforms plain, raw HTML into a
 
 blossom builds upon the minimalist philosophy of sakura but adds modern refinements for a more "lush" reading experience:
 
-- **Ultra Lightweight:** Under **3KB** . It loads almost instantly, ensuring your site is lightning-fast even on slow connections.
+- **Lightweight:** Under **20KB** . It loads almost instantly, ensuring your site is lightning-fast even on slow connections.
 - **Fluid Typography:** Uses CSS `clamp()` to scale text smoothly between devices—no more rigid breakpoints.
 - **Lush Vertical Rhythm:** Optimized line-height (1.75) and generous spacing to give your content room to breathe.
 - **Fully Semantic:** Custom, classless styling for modern tags like `<nav>`, `<details>`, `<aside>`, `<progress>`, and `<mark>`.
