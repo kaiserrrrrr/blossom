@@ -7,11 +7,9 @@
 blossom builds upon the minimalist philosophy of sakura but adds modern refinements for a more "lush" reading experience:
 
 - **Lightweight:** Under **20KB** . It loads almost instantly, ensuring your site is lightning-fast even on slow connections.
-- **Fluid Typography:** Uses CSS `clamp()` to scale text smoothly between devices—no more rigid breakpoints.
-- **Lush Vertical Rhythm:** Optimized line-height (1.75) and generous spacing to give your content room to breathe.
-- **Fully Semantic:** Custom, classless styling for modern tags like `<nav>`, `<details>`, `<aside>`, `<progress>`, and `<mark>`.
+- **Fully Responsive:** Uses CSS `clamp()` to scale text smoothly between devices—no more rigid breakpoints.
+- **Fully Semantic:** Custom styling for all non-deprecated and non-experimental tags like `<nav>`, `<details>`, `<aside>`, `<progress>`, and `<mark>`.
 - **Automatic Dark Mode:** Built-in support for `prefers-color-scheme` using high-contrast CSS variables.
-- **Classless Philosophy:** Just drop the CSS file in and your standard HTML tags look great immediately.
 
 ---
 
