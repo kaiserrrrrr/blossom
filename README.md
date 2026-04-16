@@ -2,8 +2,6 @@
 
 **A lush, classless, and fully semantic CSS framework.** *An evolution of [sakura](https://github.com/oxalorg/sakura) with a focus on modern semantics and fluid design.*
 
-Blossom.css is a drop-in styling solution that transforms plain, raw HTML into a beautiful, readable document with **zero classes**. It is designed for developers who want to focus on content and semantics rather than fighting with CSS frameworks.
-
 ## 🌟 Why Blossom?
 
 blossom builds upon the minimalist philosophy of sakura but adds modern refinements for a more "lush" reading experience:
